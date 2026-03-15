@@ -32,7 +32,7 @@ Deployment
 The website is hosted using GitHub Pages.
 
 Live Portfolio Link:
-https://smruti-1511.github.io/OIBSIP_WebDevelopment_Task1/
+(https://annepusrija-max.github.io/Portfolio/)
 
 Outcome
 
