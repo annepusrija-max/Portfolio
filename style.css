@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: hsl(223, 14%, 90%);
+}
+/* Container */
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+/* Card Style */
+.card {
+    background: rgba(237, 236, 236, 0.95);
+    padding: 35px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    box-shadow:0 4px 15px rgba(90, 69, 147, 0.9);
+    border-left:6px solid #55479c;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+/* Hero */
+.hero {
+    background-color:rgb(94, 62, 155);
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 80px 20px;
+}
+/* Profile */
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 70%;
+    object-fit: cover;
+    object-position: top center;
+    border: 5px solid #fff;
+    margin-bottom: 15px;
+}
+/* Headings */
+h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #4f46e5;
+}
+h3 {
+    color:blueviolet;
+    margin-bottom: 8px;
+}
+.tagline {
+    color: hsl(0, 25%, 97%);
+    font-size: 18px;
+}
+/* Paragraph */
+p {
+    line-height: 1.6;
+    color: #444;
+}
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills span {
+    background: #e0e7ff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+/* Projects */
+.project {
+    margin-bottom: 18px;
+}
+/* Contact */
+.contact p {
+    margin-bottom: 8px;
+}
+.copyright{
+    text-align: center;
+}
